@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {SomeType} from "./some-type";
+import {someFunction} from "./some-service";
 
 let someVar: SomeType = someFunction();
 
