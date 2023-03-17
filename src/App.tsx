@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {SomeType} from "./some-type";
+
+let someVar: SomeType = someFunction();
 
 function App() {
   return (
